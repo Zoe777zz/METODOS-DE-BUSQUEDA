@@ -1,0 +1,501 @@
+id;insumo;stock
+ITEM-0001;Alcohol 70% 1L;500
+ITEM-0002;Analgésico Genérico;499
+ITEM-0003;Algodón 250g;498
+ITEM-0004;Tijeras Médicas;497
+ITEM-0005;Gasas 10x10;496
+ITEM-0006;Mascarilla KN95;495
+ITEM-0007;Alcohol 70% 1L;494
+ITEM-0008;Guante Nitrilo Talla M;493
+ITEM-0009;Alcohol 70% 1L;492
+ITEM-0010;Jeringa 5ml;491
+ITEM-0011;Analgésico Genérico;490
+ITEM-0012;Mascarilla KN95;489
+ITEM-0013;Mascarilla KN95;488
+ITEM-0014;Analgésico Genérico;487
+ITEM-0015;Analgésico Genérico;486
+ITEM-0016;Tijeras Médicas;485
+ITEM-0017;Guante Nitrilo Talla M;484
+ITEM-0018;Alcohol 70% 1L;483
+ITEM-0019;Termómetro Digital;482
+ITEM-0020;Termómetro Digital;481
+ITEM-0021;Guante Nitrilo Talla M;480
+ITEM-0022;Termómetro Digital;479
+ITEM-0023;Jeringa 5ml;478
+ITEM-0024;Algodón 250g;477
+ITEM-0025;Analgésico Genérico;476
+ITEM-0026;Termómetro Digital;475
+ITEM-0027;Venda Elástica 10cm;474
+ITEM-0028;Algodón 250g;473
+ITEM-0029;Algodón 250g;472
+ITEM-0030;Analgésico Genérico;471
+ITEM-0031;Alcohol 70% 1L;470
+ITEM-0032;Tijeras Médicas;469
+ITEM-0033;Gasas 10x10;468
+ITEM-0034;Algodón 250g;467
+ITEM-0035;Jeringa 5ml;466
+ITEM-0036;Gasas 10x10;465
+ITEM-0037;Termómetro Digital;464
+ITEM-0038;Venda Elástica 10cm;463
+ITEM-0039;Termómetro Digital;462
+ITEM-0040;Guante Nitrilo Talla M;461
+ITEM-0041;Jeringa 5ml;460
+ITEM-0042;Mascarilla KN95;459
+ITEM-0043;Guante Nitrilo Talla M;458
+ITEM-0044;Mascarilla KN95;457
+ITEM-0045;Analgésico Genérico;456
+ITEM-0046;Alcohol 70% 1L;455
+ITEM-0047;Venda Elástica 10cm;454
+ITEM-0048;Algodón 250g;453
+ITEM-0049;Venda Elástica 10cm;452
+ITEM-0050;Tijeras Médicas;451
+ITEM-0051;Alcohol 70% 1L;450
+ITEM-0052;Gasas 10x10;449
+ITEM-0053;Analgésico Genérico;448
+ITEM-0054;Mascarilla KN95;447
+ITEM-0055;Mascarilla KN95;446
+ITEM-0056;Gasas 10x10;445
+ITEM-0057;Analgésico Genérico;444
+ITEM-0058;Guante Nitrilo Talla M;443
+ITEM-0059;Analgésico Genérico;442
+ITEM-0060;Gasas 10x10;441
+ITEM-0061;Guante Nitrilo Talla M;440
+ITEM-0062;Analgésico Genérico;439
+ITEM-0063;Gasas 10x10;438
+ITEM-0064;Analgésico Genérico;437
+ITEM-0065;Gasas 10x10;436
+ITEM-0066;Tijeras Médicas;435
+ITEM-0067;Analgésico Genérico;434
+ITEM-0068;Termómetro Digital;433
+ITEM-0069;Jeringa 5ml;432
+ITEM-0070;Mascarilla KN95;431
+ITEM-0071;Mascarilla KN95;430
+ITEM-0072;Mascarilla KN95;429
+ITEM-0073;Mascarilla KN95;428
+ITEM-0074;Venda Elástica 10cm;427
+ITEM-0075;Algodón 250g;426
+ITEM-0076;Alcohol 70% 1L;425
+ITEM-0077;Analgésico Genérico;424
+ITEM-0078;Jeringa 5ml;423
+ITEM-0079;Mascarilla KN95;422
+ITEM-0080;Venda Elástica 10cm;421
+ITEM-0081;Algodón 250g;420
+ITEM-0082;Tijeras Médicas;419
+ITEM-0083;Guante Nitrilo Talla M;418
+ITEM-0084;Alcohol 70% 1L;417
+ITEM-0085;Mascarilla KN95;416
+ITEM-0086;Mascarilla KN95;415
+ITEM-0087;Algodón 250g;414
+ITEM-0088;Jeringa 5ml;413
+ITEM-0089;Alcohol 70% 1L;412
+ITEM-0090;Venda Elástica 10cm;411
+ITEM-0091;Tijeras Médicas;410
+ITEM-0092;Analgésico Genérico;409
+ITEM-0093;Algodón 250g;408
+ITEM-0094;Jeringa 5ml;407
+ITEM-0095;Termómetro Digital;406
+ITEM-0096;Guante Nitrilo Talla M;405
+ITEM-0097;Guante Nitrilo Talla M;404
+ITEM-0098;Guante Nitrilo Talla M;403
+ITEM-0099;Gasas 10x10;402
+ITEM-0100;Tijeras Médicas;401
+ITEM-0101;Termómetro Digital;400
+ITEM-0102;Termómetro Digital;399
+ITEM-0103;Gasas 10x10;398
+ITEM-0104;Alcohol 70% 1L;397
+ITEM-0105;Guante Nitrilo Talla M;396
+ITEM-0106;Termómetro Digital;395
+ITEM-0107;Guante Nitrilo Talla M;394
+ITEM-0108;Venda Elástica 10cm;393
+ITEM-0109;Analgésico Genérico;392
+ITEM-0110;Termómetro Digital;391
+ITEM-0111;Gasas 10x10;390
+ITEM-0112;Algodón 250g;389
+ITEM-0113;Venda Elástica 10cm;388
+ITEM-0114;Algodón 250g;387
+ITEM-0115;Guante Nitrilo Talla M;386
+ITEM-0116;Gasas 10x10;385
+ITEM-0117;Analgésico Genérico;384
+ITEM-0118;Jeringa 5ml;383
+ITEM-0119;Analgésico Genérico;382
+ITEM-0120;Tijeras Médicas;381
+ITEM-0121;Analgésico Genérico;380
+ITEM-0122;Termómetro Digital;379
+ITEM-0123;Mascarilla KN95;378
+ITEM-0124;Alcohol 70% 1L;377
+ITEM-0125;Jeringa 5ml;376
+ITEM-0126;Guante Nitrilo Talla M;375
+ITEM-0127;Algodón 250g;374
+ITEM-0128;Gasas 10x10;373
+ITEM-0129;Algodón 250g;372
+ITEM-0130;Algodón 250g;371
+ITEM-0131;Alcohol 70% 1L;370
+ITEM-0132;Jeringa 5ml;369
+ITEM-0133;Alcohol 70% 1L;368
+ITEM-0134;Termómetro Digital;367
+ITEM-0135;Alcohol 70% 1L;366
+ITEM-0136;Mascarilla KN95;365
+ITEM-0137;Tijeras Médicas;364
+ITEM-0138;Mascarilla KN95;363
+ITEM-0139;Venda Elástica 10cm;362
+ITEM-0140;Tijeras Médicas;361
+ITEM-0141;Jeringa 5ml;360
+ITEM-0142;Gasas 10x10;359
+ITEM-0143;Analgésico Genérico;358
+ITEM-0144;Gasas 10x10;357
+ITEM-0145;Venda Elástica 10cm;356
+ITEM-0146;Mascarilla KN95;355
+ITEM-0147;Guante Nitrilo Talla M;354
+ITEM-0148;Gasas 10x10;353
+ITEM-0149;Guante Nitrilo Talla M;352
+ITEM-0150;Venda Elástica 10cm;351
+ITEM-0151;Mascarilla KN95;350
+ITEM-0152;Analgésico Genérico;349
+ITEM-0153;Tijeras Médicas;348
+ITEM-0154;Guante Nitrilo Talla M;347
+ITEM-0155;Tijeras Médicas;346
+ITEM-0156;Gasas 10x10;345
+ITEM-0157;Algodón 250g;344
+ITEM-0158;Algodón 250g;343
+ITEM-0159;Gasas 10x10;342
+ITEM-0160;Venda Elástica 10cm;341
+ITEM-0161;Mascarilla KN95;340
+ITEM-0162;Jeringa 5ml;339
+ITEM-0163;Analgésico Genérico;338
+ITEM-0164;Tijeras Médicas;337
+ITEM-0165;Algodón 250g;336
+ITEM-0166;Termómetro Digital;335
+ITEM-0167;Termómetro Digital;334
+ITEM-0168;Termómetro Digital;333
+ITEM-0169;Algodón 250g;332
+ITEM-0170;Mascarilla KN95;331
+ITEM-0171;Analgésico Genérico;330
+ITEM-0172;Alcohol 70% 1L;329
+ITEM-0173;Guante Nitrilo Talla M;328
+ITEM-0174;Tijeras Médicas;327
+ITEM-0175;Tijeras Médicas;326
+ITEM-0176;Gasas 10x10;325
+ITEM-0177;Algodón 250g;324
+ITEM-0178;Jeringa 5ml;323
+ITEM-0179;Tijeras Médicas;322
+ITEM-0180;Gasas 10x10;321
+ITEM-0181;Venda Elástica 10cm;320
+ITEM-0182;Mascarilla KN95;319
+ITEM-0183;Termómetro Digital;318
+ITEM-0184;Analgésico Genérico;317
+ITEM-0185;Venda Elástica 10cm;316
+ITEM-0186;Gasas 10x10;315
+ITEM-0187;Mascarilla KN95;314
+ITEM-0188;Jeringa 5ml;313
+ITEM-0189;Gasas 10x10;312
+ITEM-0190;Algodón 250g;311
+ITEM-0191;Jeringa 5ml;310
+ITEM-0192;Guante Nitrilo Talla M;309
+ITEM-0193;Tijeras Médicas;308
+ITEM-0194;Termómetro Digital;307
+ITEM-0195;Algodón 250g;306
+ITEM-0196;Termómetro Digital;305
+ITEM-0197;Termómetro Digital;304
+ITEM-0198;Alcohol 70% 1L;303
+ITEM-0199;Venda Elástica 10cm;302
+ITEM-0200;Gasas 10x10;301
+ITEM-0201;Alcohol 70% 1L;300
+ITEM-0202;Tijeras Médicas;299
+ITEM-0203;Guante Nitrilo Talla M;298
+ITEM-0204;Venda Elástica 10cm;297
+ITEM-0205;Algodón 250g;296
+ITEM-0206;Algodón 250g;295
+ITEM-0207;Venda Elástica 10cm;294
+ITEM-0208;Jeringa 5ml;293
+ITEM-0209;Analgésico Genérico;292
+ITEM-0210;Algodón 250g;291
+ITEM-0211;Mascarilla KN95;290
+ITEM-0212;Guante Nitrilo Talla M;289
+ITEM-0213;Venda Elástica 10cm;288
+ITEM-0214;Jeringa 5ml;287
+ITEM-0215;Analgésico Genérico;286
+ITEM-0216;Guante Nitrilo Talla M;285
+ITEM-0217;Tijeras Médicas;284
+ITEM-0218;Analgésico Genérico;283
+ITEM-0219;Jeringa 5ml;282
+ITEM-0220;Termómetro Digital;281
+ITEM-0221;Guante Nitrilo Talla M;280
+ITEM-0222;Algodón 250g;279
+ITEM-0223;Algodón 250g;278
+ITEM-0224;Guante Nitrilo Talla M;277
+ITEM-0225;Algodón 250g;276
+ITEM-0226;Analgésico Genérico;275
+ITEM-0227;Analgésico Genérico;274
+ITEM-0228;Venda Elástica 10cm;273
+ITEM-0229;Analgésico Genérico;272
+ITEM-0230;Algodón 250g;271
+ITEM-0231;Guante Nitrilo Talla M;270
+ITEM-0232;Analgésico Genérico;269
+ITEM-0233;Alcohol 70% 1L;268
+ITEM-0234;Algodón 250g;267
+ITEM-0235;Venda Elástica 10cm;266
+ITEM-0236;Analgésico Genérico;265
+ITEM-0237;Alcohol 70% 1L;264
+ITEM-0238;Tijeras Médicas;263
+ITEM-0239;Algodón 250g;262
+ITEM-0240;Algodón 250g;261
+ITEM-0241;Venda Elástica 10cm;260
+ITEM-0242;Tijeras Médicas;259
+ITEM-0243;Guante Nitrilo Talla M;258
+ITEM-0244;Termómetro Digital;257
+ITEM-0245;Mascarilla KN95;256
+ITEM-0246;Analgésico Genérico;255
+ITEM-0247;Termómetro Digital;254
+ITEM-0248;Venda Elástica 10cm;253
+ITEM-0249;Tijeras Médicas;252
+ITEM-0250;Mascarilla KN95;251
+ITEM-0251;Tijeras Médicas;250
+ITEM-0252;Jeringa 5ml;249
+ITEM-0253;Termómetro Digital;248
+ITEM-0254;Tijeras Médicas;247
+ITEM-0255;Algodón 250g;246
+ITEM-0256;Analgésico Genérico;245
+ITEM-0257;Mascarilla KN95;244
+ITEM-0258;Guante Nitrilo Talla M;243
+ITEM-0259;Venda Elástica 10cm;242
+ITEM-0260;Gasas 10x10;241
+ITEM-0261;Mascarilla KN95;240
+ITEM-0262;Tijeras Médicas;239
+ITEM-0263;Termómetro Digital;238
+ITEM-0264;Mascarilla KN95;237
+ITEM-0265;Mascarilla KN95;236
+ITEM-0266;Jeringa 5ml;235
+ITEM-0267;Termómetro Digital;234
+ITEM-0268;Analgésico Genérico;233
+ITEM-0269;Mascarilla KN95;232
+ITEM-0270;Analgésico Genérico;231
+ITEM-0271;Alcohol 70% 1L;230
+ITEM-0272;Mascarilla KN95;229
+ITEM-0273;Tijeras Médicas;228
+ITEM-0274;Gasas 10x10;227
+ITEM-0275;Mascarilla KN95;226
+ITEM-0276;Algodón 250g;225
+ITEM-0277;Analgésico Genérico;224
+ITEM-0278;Analgésico Genérico;223
+ITEM-0279;Guante Nitrilo Talla M;222
+ITEM-0280;Gasas 10x10;221
+ITEM-0281;Tijeras Médicas;220
+ITEM-0282;Mascarilla KN95;219
+ITEM-0283;Mascarilla KN95;218
+ITEM-0284;Termómetro Digital;217
+ITEM-0285;Alcohol 70% 1L;216
+ITEM-0286;Venda Elástica 10cm;215
+ITEM-0287;Tijeras Médicas;214
+ITEM-0288;Alcohol 70% 1L;213
+ITEM-0289;Alcohol 70% 1L;212
+ITEM-0290;Termómetro Digital;211
+ITEM-0291;Guante Nitrilo Talla M;210
+ITEM-0292;Guante Nitrilo Talla M;209
+ITEM-0293;Jeringa 5ml;208
+ITEM-0294;Algodón 250g;207
+ITEM-0295;Jeringa 5ml;206
+ITEM-0296;Jeringa 5ml;205
+ITEM-0297;Analgésico Genérico;204
+ITEM-0298;Guante Nitrilo Talla M;203
+ITEM-0299;Alcohol 70% 1L;202
+ITEM-0300;Alcohol 70% 1L;201
+ITEM-0301;Alcohol 70% 1L;200
+ITEM-0302;Venda Elástica 10cm;199
+ITEM-0303;Alcohol 70% 1L;198
+ITEM-0304;Gasas 10x10;197
+ITEM-0305;Algodón 250g;196
+ITEM-0306;Termómetro Digital;195
+ITEM-0307;Jeringa 5ml;194
+ITEM-0308;Tijeras Médicas;193
+ITEM-0309;Analgésico Genérico;192
+ITEM-0310;Guante Nitrilo Talla M;191
+ITEM-0311;Mascarilla KN95;190
+ITEM-0312;Jeringa 5ml;189
+ITEM-0313;Jeringa 5ml;188
+ITEM-0314;Algodón 250g;187
+ITEM-0315;Jeringa 5ml;186
+ITEM-0316;Analgésico Genérico;185
+ITEM-0317;Analgésico Genérico;184
+ITEM-0318;Gasas 10x10;183
+ITEM-0319;Jeringa 5ml;182
+ITEM-0320;Termómetro Digital;181
+ITEM-0321;Venda Elástica 10cm;180
+ITEM-0322;Tijeras Médicas;179
+ITEM-0323;Mascarilla KN95;178
+ITEM-0324;Gasas 10x10;177
+ITEM-0325;Gasas 10x10;176
+ITEM-0326;Jeringa 5ml;175
+ITEM-0327;Guante Nitrilo Talla M;174
+ITEM-0328;Gasas 10x10;173
+ITEM-0329;Venda Elástica 10cm;172
+ITEM-0330;Analgésico Genérico;171
+ITEM-0331;Jeringa 5ml;170
+ITEM-0332;Mascarilla KN95;169
+ITEM-0333;Jeringa 5ml;168
+ITEM-0334;Venda Elástica 10cm;167
+ITEM-0335;Tijeras Médicas;166
+ITEM-0336;Termómetro Digital;165
+ITEM-0337;Jeringa 5ml;164
+ITEM-0338;Guante Nitrilo Talla M;163
+ITEM-0339;Tijeras Médicas;162
+ITEM-0340;Mascarilla KN95;161
+ITEM-0341;Tijeras Médicas;160
+ITEM-0342;Tijeras Médicas;159
+ITEM-0343;Termómetro Digital;158
+ITEM-0344;Mascarilla KN95;157
+ITEM-0345;Algodón 250g;156
+ITEM-0346;Algodón 250g;155
+ITEM-0347;Alcohol 70% 1L;154
+ITEM-0348;Gasas 10x10;153
+ITEM-0349;Jeringa 5ml;152
+ITEM-0350;Tijeras Médicas;151
+ITEM-0351;Tijeras Médicas;150
+ITEM-0352;Tijeras Médicas;149
+ITEM-0353;Alcohol 70% 1L;148
+ITEM-0354;Termómetro Digital;147
+ITEM-0355;Analgésico Genérico;146
+ITEM-0356;Mascarilla KN95;145
+ITEM-0357;Gasas 10x10;144
+ITEM-0358;Jeringa 5ml;143
+ITEM-0359;Mascarilla KN95;142
+ITEM-0360;Gasas 10x10;141
+ITEM-0361;Termómetro Digital;140
+ITEM-0362;Alcohol 70% 1L;139
+ITEM-0363;Analgésico Genérico;138
+ITEM-0364;Tijeras Médicas;137
+ITEM-0365;Venda Elástica 10cm;136
+ITEM-0366;Tijeras Médicas;135
+ITEM-0367;Tijeras Médicas;134
+ITEM-0368;Alcohol 70% 1L;133
+ITEM-0369;Analgésico Genérico;132
+ITEM-0370;Venda Elástica 10cm;131
+ITEM-0371;Tijeras Médicas;130
+ITEM-0372;Tijeras Médicas;129
+ITEM-0373;Tijeras Médicas;128
+ITEM-0374;Termómetro Digital;127
+ITEM-0375;Jeringa 5ml;126
+ITEM-0376;Gasas 10x10;125
+ITEM-0377;Guante Nitrilo Talla M;124
+ITEM-0378;Guante Nitrilo Talla M;123
+ITEM-0379;Tijeras Médicas;122
+ITEM-0380;Termómetro Digital;121
+ITEM-0381;Guante Nitrilo Talla M;120
+ITEM-0382;Analgésico Genérico;119
+ITEM-0383;Guante Nitrilo Talla M;118
+ITEM-0384;Analgésico Genérico;117
+ITEM-0385;Jeringa 5ml;116
+ITEM-0386;Mascarilla KN95;115
+ITEM-0387;Termómetro Digital;114
+ITEM-0388;Gasas 10x10;113
+ITEM-0389;Analgésico Genérico;112
+ITEM-0390;Tijeras Médicas;111
+ITEM-0391;Alcohol 70% 1L;110
+ITEM-0392;Mascarilla KN95;109
+ITEM-0393;Jeringa 5ml;108
+ITEM-0394;Gasas 10x10;107
+ITEM-0395;Tijeras Médicas;106
+ITEM-0396;Venda Elástica 10cm;105
+ITEM-0397;Tijeras Médicas;104
+ITEM-0398;Venda Elástica 10cm;103
+ITEM-0399;Guante Nitrilo Talla M;102
+ITEM-0400;Tijeras Médicas;101
+ITEM-0401;Alcohol 70% 1L;100
+ITEM-0402;Gasas 10x10;99
+ITEM-0403;Venda Elástica 10cm;98
+ITEM-0404;Venda Elástica 10cm;97
+ITEM-0405;Venda Elástica 10cm;96
+ITEM-0406;Venda Elástica 10cm;95
+ITEM-0407;Algodón 250g;94
+ITEM-0408;Gasas 10x10;93
+ITEM-0409;Gasas 10x10;92
+ITEM-0410;Termómetro Digital;91
+ITEM-0411;Tijeras Médicas;90
+ITEM-0412;Gasas 10x10;89
+ITEM-0413;Algodón 250g;88
+ITEM-0414;Jeringa 5ml;87
+ITEM-0415;Analgésico Genérico;86
+ITEM-0416;Alcohol 70% 1L;85
+ITEM-0417;Termómetro Digital;84
+ITEM-0418;Termómetro Digital;83
+ITEM-0419;Jeringa 5ml;82
+ITEM-0420;Gasas 10x10;81
+ITEM-0421;Tijeras Médicas;80
+ITEM-0422;Alcohol 70% 1L;79
+ITEM-0423;Algodón 250g;78
+ITEM-0424;Tijeras Médicas;77
+ITEM-0425;Venda Elástica 10cm;76
+ITEM-0426;Jeringa 5ml;75
+ITEM-0427;Algodón 250g;74
+ITEM-0428;Gasas 10x10;73
+ITEM-0429;Mascarilla KN95;72
+ITEM-0430;Termómetro Digital;71
+ITEM-0431;Guante Nitrilo Talla M;70
+ITEM-0432;Algodón 250g;69
+ITEM-0433;Mascarilla KN95;68
+ITEM-0434;Alcohol 70% 1L;67
+ITEM-0435;Jeringa 5ml;66
+ITEM-0436;Termómetro Digital;65
+ITEM-0437;Jeringa 5ml;64
+ITEM-0438;Algodón 250g;63
+ITEM-0439;Algodón 250g;62
+ITEM-0440;Tijeras Médicas;61
+ITEM-0441;Gasas 10x10;60
+ITEM-0442;Guante Nitrilo Talla M;59
+ITEM-0443;Guante Nitrilo Talla M;58
+ITEM-0444;Venda Elástica 10cm;57
+ITEM-0445;Guante Nitrilo Talla M;56
+ITEM-0446;Alcohol 70% 1L;55
+ITEM-0447;Analgésico Genérico;54
+ITEM-0448;Termómetro Digital;53
+ITEM-0449;Venda Elástica 10cm;52
+ITEM-0450;Jeringa 5ml;51
+ITEM-0451;Venda Elástica 10cm;50
+ITEM-0452;Alcohol 70% 1L;49
+ITEM-0453;Venda Elástica 10cm;48
+ITEM-0454;Mascarilla KN95;47
+ITEM-0455;Jeringa 5ml;46
+ITEM-0456;Termómetro Digital;45
+ITEM-0457;Analgésico Genérico;44
+ITEM-0458;Venda Elástica 10cm;43
+ITEM-0459;Analgésico Genérico;42
+ITEM-0460;Mascarilla KN95;41
+ITEM-0461;Alcohol 70% 1L;40
+ITEM-0462;Alcohol 70% 1L;39
+ITEM-0463;Gasas 10x10;38
+ITEM-0464;Analgésico Genérico;37
+ITEM-0465;Termómetro Digital;36
+ITEM-0466;Gasas 10x10;35
+ITEM-0467;Analgésico Genérico;34
+ITEM-0468;Tijeras Médicas;33
+ITEM-0469;Alcohol 70% 1L;32
+ITEM-0470;Guante Nitrilo Talla M;31
+ITEM-0471;Analgésico Genérico;30
+ITEM-0472;Alcohol 70% 1L;29
+ITEM-0473;Gasas 10x10;28
+ITEM-0474;Alcohol 70% 1L;27
+ITEM-0475;Mascarilla KN95;26
+ITEM-0476;Tijeras Médicas;25
+ITEM-0477;Termómetro Digital;24
+ITEM-0478;Guante Nitrilo Talla M;23
+ITEM-0479;Venda Elástica 10cm;22
+ITEM-0480;Gasas 10x10;21
+ITEM-0481;Venda Elástica 10cm;20
+ITEM-0482;Gasas 10x10;19
+ITEM-0483;Tijeras Médicas;18
+ITEM-0484;Analgésico Genérico;17
+ITEM-0485;Gasas 10x10;16
+ITEM-0486;Termómetro Digital;15
+ITEM-0487;Mascarilla KN95;14
+ITEM-0488;Analgésico Genérico;13
+ITEM-0489;Guante Nitrilo Talla M;12
+ITEM-0490;Jeringa 5ml;11
+ITEM-0491;Guante Nitrilo Talla M;10
+ITEM-0492;Jeringa 5ml;9
+ITEM-0493;Alcohol 70% 1L;8
+ITEM-0494;Termómetro Digital;7
+ITEM-0495;Analgésico Genérico;6
+ITEM-0496;Analgésico Genérico;5
+ITEM-0497;Gasas 10x10;4
+ITEM-0498;Algodón 250g;3
+ITEM-0499;Guante Nitrilo Talla M;2
+ITEM-0500;Analgésico Genérico;1
