@@ -3,12 +3,10 @@ package ed.u2.sorting.busqueda;
 import ed.u2.sorting.estructuras.Nodo;
 
 public class FirstOcurrence {
-
-    // --- CORRECCIÓN 1: Búsqueda en Arreglo ---
     public static <T extends Comparable<T>> int secuencialFirst(T[] datos, T objetivo) {
         for (int i = 0; i < datos.length; i++) {
             if (datos[i].compareTo(objetivo) == 0) {
-                return i; // ¡CORTA AQUÍ! Retorna inmediatamente.
+                return i;
             }
         }
         return -1;

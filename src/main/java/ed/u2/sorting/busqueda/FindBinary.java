@@ -9,12 +9,12 @@ public class FindBinary {
             int medio = inicio + (fin - inicio) / 2;
             int comparacion = datos[medio].compareTo(objetivo);
 
-            if (comparacion == 0) return medio; // ¡CORTA! Encontrado.
+            if (comparacion == 0) return medio;
 
             if (comparacion < 0) {
-                inicio = medio + 1; // Buscar derecha
+                inicio = medio + 1;
             } else {
-                fin = medio - 1;    // Buscar izquierda
+                fin = medio - 1;
             }
         }
         return -1;

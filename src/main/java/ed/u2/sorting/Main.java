@@ -24,24 +24,22 @@ public class Main {
             System.out.println("==============================================");
             System.out.println("1. Ejecutar búsquedas secuencial en archivo Pacientes");
             System.out.println("2. Ejecutar búsquedas binarias en archivo Citas");
-            System.out.println("3. Salir");
+            System.out.println("3. Ejecutar casos de prueba");
+            System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
 
             switch (opcion) {
                 case 1 -> ejecutarMenuPacientes(sc);
                 case 2 -> ejecutarMenuCitas(sc);
-                case 3 -> System.out.println("Saliendo del sistema...");
+                case 3 -> ejecutarPruebasDemo();
+                case 4 -> System.out.println("Saliendo del sistema...");
                 default -> System.out.println("Opción inválida. Intente de nuevo.");
             }
 
-        } while (opcion != 3);
+        } while (opcion != 4);
     }
 
-
-    // ================================================================
-    // SUBMENÚ PACIENTES
-    // ================================================================
     public static void ejecutarMenuPacientes(Scanner sc) {
 
         System.out.println("\n===== BÚSQUEDAS EN PACIENTES =====");
@@ -81,9 +79,6 @@ public class Main {
     }
 
 
-    // ================================================================
-    // SUBMENÚ CITAS
-    // ================================================================
     public static void ejecutarMenuCitas(Scanner sc) {
 
         System.out.println("\n===== BÚSQUEDAS EN CITAS =====");
@@ -122,10 +117,6 @@ public class Main {
         }
     }
 
-
-    // ================================================================
-    //  MÉTODO 1: Búsquedas para PACIENTES (Tablas completas)
-    // ================================================================
     public static void ejecutarBusquedaPacientes(String archivo, String claveApellido) throws IOException {
 
         List<Paciente> listaPac = DatasetLoader.cargarPacientes(archivo);
@@ -164,9 +155,6 @@ public class Main {
         double tiempoCentinela = (tcEnd - tcStart) / 1_000_000.0; // ms
 
 
-        // ============================================================
-        // TABLA 1 — RESULTADOS DE BÚSQUEDAS
-        // ============================================================
         System.out.println("\n+==============================================================+");
         System.out.println("|               RESULTADOS DE BÚSQUEDAS SECUENCIALES             |");
         System.out.println("+==============================================================+");
@@ -199,10 +187,6 @@ public class Main {
 
         System.out.println("+==============================================================+");
 
-
-        // ============================================================
-        // TABLA 2 — COMPARATIVA DE TIEMPOS
-        // ============================================================
         System.out.println("\n+==============================================================+");
         System.out.println("|            COMPARACIÓN DE TIEMPOS DE BÚSQUEDA               |");
         System.out.println("+==============================================================+");
@@ -215,23 +199,12 @@ public class Main {
 
         System.out.println("+==============================================================+");
 
-        // Comentario automático:
-        if (tiempoCentinela < tiempoNormal)
-            System.out.println("\n✔ Centinela fue MÁS RÁPIDO en este dataset.\n");
-        else
-            System.out.println("\n✔ Búsqueda normal fue más rápida (caso poco frecuente).\n");
     }
 
-
-
-    // ================================================================
-    //  MÉTODO 2: Búsquedas para CITAS (Tablas completas)
-    // ================================================================
     public static void ejecutarBusquedaCitas(String archivo, String claveCita) throws IOException {
 
         List<Cita> listaCitas = DatasetLoader.cargarCitas(archivo);
 
-        // ORDENAR PARA BINARIA
         InsertionSort.insertionSort(listaCitas, (a, b) -> a.id.compareTo(b.id));
 
         Cita[] arr = listaCitas.toArray(new Cita[0]);
@@ -245,9 +218,6 @@ public class Main {
         double tiempoMS = (t2 - t1) / 1_000_000.0; //
 
 
-        // ============================================================
-        // TABLA FINAL — CITAS
-        // ============================================================
         System.out.println("\n+==============================================================+");
         System.out.println("|               RESULTADOS DE BÚSQUEDA BINARIA                 |");
         System.out.println("+==============================================================+");
@@ -271,12 +241,6 @@ public class Main {
 
         System.out.println("+==============================================================+");
     }
-
-
-
-    // ================================================================
-    // MÉTODO AUXILIAR — POSICIÓN EN SLL
-    // ================================================================
     public static <T> int obtenerPosicionSLL(Nodo<T> cabeza, Nodo<T> nodoBuscado) {
         int index = 0;
         Nodo<T> actual = cabeza;
@@ -288,4 +252,100 @@ public class Main {
         }
         return -1;
     }
+
+    public static void ejecutarPruebasDemo() {
+
+        System.out.println("\n========== PRUEBAS DE VERIFICACIÓN (DEMO) ==========\n");
+
+        Integer[] A = {1, 3, 7, 7, 9};
+        Integer[] B = {5, 5, 5, 8};
+        Integer[] C = {2, 4, 6, 8};
+        Integer[] D = {10, 20, 30};
+        Integer[] VACIO = {};
+
+        int[] claves = {7, 5, 2, 42};
+
+        ejecutarPruebaArray("A", A, claves);
+        ejecutarPruebaArray("B", B, claves);
+        ejecutarPruebaArray("C", C, claves);
+        ejecutarPruebaArray("D", D, claves);
+        ejecutarPruebaArray("VACÍO", VACIO, claves);
+
+        ListaEnlazadaSLL<Integer> lista = new ListaEnlazadaSLL<>();
+        lista.pushBack(3);
+        lista.pushBack(1);
+        lista.pushBack(3);
+        lista.pushBack(2);
+
+        Nodo<Integer> head = lista.getCabeza();
+
+        Nodo<Integer> first3 = FirstOcurrence.findFirst(head, 3);
+        Nodo<Integer> last3 = LastOcurrence.findLast(head, 3);
+
+
+        List<Nodo<Integer>> menores3 = new ArrayList<>();
+        Nodo<Integer> aux = head;
+        while (aux != null) {
+            if (aux.dato < 3) menores3.add(aux);
+            aux = aux.siguiente;
+        }
+
+        System.out.println("\n+====================================================================+");
+        System.out.println("|                    PRUEBAS CON LISTA ENLAZADA (SLL)               |");
+        System.out.println("+====================================================================+");
+
+        System.out.println("\nContenido de la lista SLL:");
+        System.out.println("3 → 1 → 3 → 2\n");
+
+        System.out.printf("| %-20s | %-15s | %-10s |\n",
+                "Operación", "Resultado", "Posición");
+        System.out.println("+--------------------------------------------------------------+");
+
+        System.out.printf("| %-20s | %-15s | %-10d |\n",
+                "First(3)",
+                (first3 != null ? first3.dato : "null"),
+                (first3 != null ? obtenerPosicionSLL(head, first3) : -1));
+
+        System.out.printf("| %-20s | %-15s | %-10d |\n",
+                "Last(3)",
+                (last3 != null ? last3.dato : "null"),
+                (last3 != null ? obtenerPosicionSLL(head, last3) : -1));
+
+        System.out.printf("| %-20s | %-15s | %-10s |\n",
+                "Valores < 3",
+                menores3.toString(),
+                "N/A");
+
+        System.out.println("+====================================================================+");
+
+
+        System.out.println("+====================================================================+");
+        System.out.println("✔ Pruebas finalizadas correctamente.\n");
+    }
+    public static void ejecutarPruebaArray(String nombre, Integer[] arr, int[] claves) {
+
+        System.out.println("\n+======================================================================+");
+        System.out.println("|                   PRUEBAS SOBRE ARREGLO: " + nombre + "                      |");
+        System.out.println("+======================================================================+");
+
+        // Mostrar contenido del arreglo
+        System.out.println("Contenido → " + Arrays.toString(arr) + "\n");
+
+        System.out.printf("| %-10s | %-10s | %-10s | %-10s | %-15s |\n",
+                "Array", "Clave", "First", "Last", "FindAll");
+        System.out.println("+----------------------------------------------------------------------+");
+
+        for (int clave : claves) {
+
+            System.out.printf("| %-10s | %-10d | %-10d | %-10d | %-15s |\n",
+                    nombre,
+                    clave,
+                    FirstOcurrence.secuencialFirst(arr, clave),
+                    LastOcurrence.secuencialLast(arr, clave),
+                    FindAllOcurrences.findAll(arr, clave).toString());
+        }
+
+        System.out.println("+======================================================================+");
+    }
+
 }
