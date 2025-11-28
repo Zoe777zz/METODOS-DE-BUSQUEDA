@@ -1,7 +1,6 @@
 # Implementación de Búsquedas en Java
 
-## Informacion del equipo
-### Integrantes
+## Integrantes
 - Francis Valdivieso
 - Soledad Buri
 - Santiago Villamagua
@@ -153,5 +152,3 @@ indexOfLast → esperado 3 → observado 3
 # Conclusiones
 
 El proyecto implementa correctamente todas las variantes de búsqueda solicitadas, cubriendo los casos borde, estructuras lineales y algorítmicas, así como un módulo de pruebas para verificación clara.
-* Versión PDF del informe
-* Versión con pseudocódigo
